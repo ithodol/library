@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>도서 등록</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!-- 홈버튼 -->
+<button type="button" class="homeBtn" onclick="location.href='/library_management/index.html'">📙</button>
+    <div id="container">
+        <h1>도서 등록</h1>
+        <div>제목</div>
+        <input type="text" class="bname"/> <br/> <br/>
+
+        <div>저자</div>
+        <input type="text" class="bwriter"/> <br/> <br/>
+
+        <div>출판사</div>
+        <input type="text" class="bpub"/> <br/> <br/>
+
+        <button type="button" class="btn btnS" onclick="bookSave()">등록</button>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="booksave.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원 관리</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- 홈버튼 -->
+    <button type="button" class="homeBtn" onclick="location.href='/library_management/index.html'">📙</button>
+    <!-- 회원 전체 조회 -->
+    <div id="container">
+        <h1>회원 전체 조회</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>아이디</th>
+                    <th>이름</th>
+                    <th>기타</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <button type="button" class="btn" onclick="location.href='/library_management/membersave.html'">회원 등록</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="member.js"></script>
+</body>
+</html>

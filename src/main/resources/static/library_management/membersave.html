@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원 등록</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- 홈버튼 -->
+    <button type="button" class="homeBtn" onclick="location.href='/library_management/index.html'">📙</button>
+    <div id="container">
+        <h1>회원 등록</h1>
+        <div>아이디</div>
+        <input type="text" class="mid"/> <br/> <br/>
+
+        <div>비밀번호</div>
+        <input type="password" class="mpwd"/> <br/> <br/>
+
+        <div>이름</div>
+        <input type="text" class="mname"/> <br/> <br/>
+
+        <button type="button" class="btn btnS" onclick="memberSave()">등록</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="membersave.js"></script>
+</body>
+</html>
